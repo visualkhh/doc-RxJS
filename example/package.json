@@ -1,0 +1,39 @@
+{
+  "name": "doc-rxjs",
+  "version": "1.0.0",
+  "description": "- npm init - tsc --init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpackBuild": "webpack",
+    "webpackWatch": "webpack --watch",
+    "watch": "ts-node-dev ./src/index.ts --watch",
+    "startServer": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visualkhh/toy-sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visualkhh/toy-sort/issues"
+  },
+  "homepage": "https://github.com/visualkhh/toy-sort#readme",
+  "dependencies": {
+    "@types/core-js": "^2.5.2",
+    "@types/es6-promise": "^3.3.0",
+    "path": "^0.12.7",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3",
+    "ts-node": "^8.5.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
